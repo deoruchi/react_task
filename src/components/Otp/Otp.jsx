@@ -4,13 +4,12 @@ import Chai from "./Chai.png";
 export const Otp = () => {
   let length = 4;
   let otp = "1234";
-  const navigate = useNavigate();
   const [otpArray, setOtp] = useState(new Array(4).fill("")); //creats an array of length 4
   const [verify, setVerify] = useState(false);
   const [neutral, setNeutral] = useState(true);
   const buttonRef = useRef();
   const inputs = useRef([]);
-  console.log(inputs.length);
+  // console.log(inputs.length);
 
   const handleChange = (event, index) => {
     const value = event.target.value;
@@ -54,7 +53,7 @@ export const Otp = () => {
       setVerify(true);
       setOtp([]);
     }
-    setVerify(true);
+    setVerify(false);
   };
 
   return (
