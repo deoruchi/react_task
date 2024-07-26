@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import {
-  createBrowserRouter,
+  createHashRouter,
   createRoutesFromElements,
   Route,
   RouterProvider,
@@ -12,7 +12,7 @@ import { Layout } from "./Layout";
 import { Otp } from "./components/Otp/Otp";
 import { Cards } from "./components/Cards/Cards";
 import { DataTable } from "./DataTable/DataTable";
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <>
       <Route path="/" element=<Layout />></Route>
