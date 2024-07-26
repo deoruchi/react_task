@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react_tasks/static/css/main.fc2a2efb.css",
+    "main.js": "/react_tasks/static/js/main.6d9e27a3.js",
+    "static/media/Chai.png": "/react_tasks/static/media/Chai.2ed10917df82133e5f8b.png",
+    "index.html": "/react_tasks/index.html",
+    "main.fc2a2efb.css.map": "/react_tasks/static/css/main.fc2a2efb.css.map",
+    "main.6d9e27a3.js.map": "/react_tasks/static/js/main.6d9e27a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc2a2efb.css",
+    "static/js/main.6d9e27a3.js"
+  ]
+}
