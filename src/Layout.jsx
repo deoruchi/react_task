@@ -1,5 +1,6 @@
 import React from "react";
-import { Outlet, redirect, useNavigate } from "react-router-dom";
+import "./App.css";
+import { useNavigate } from "react-router-dom";
 
 export const Layout = () => {
   const navigate = useNavigate();
@@ -33,7 +34,6 @@ export const Layout = () => {
           Batches
         </button>
       </section>
-      <Outlet />
     </div>
   );
 };
