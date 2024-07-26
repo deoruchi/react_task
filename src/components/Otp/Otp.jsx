@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import Chai from "./Chai.png";
 export const Otp = () => {
@@ -60,23 +60,18 @@ export const Otp = () => {
   return (
     <article className=" bg-blue-500 h-screen">
       {/* TODO: button ko component banana */}
-      <button
+      {/* <button
         onClick={() => navigate("/")}
-        className="p-3 mx-2 bg-orange-600 rounded-sm text-zinc-100 font-medium hover:bg-orange-400"
+        className="p-2 mx-2 rounded-lg bg-orange-400  text-zinc-100 font-medium hover:bg-orange-400 "
       >
         Back
-      </button>
+      </button> */}
 
       <section className="flex justify-start items-center flex-col">
         <h1 className="text-[70px] text-white font-bold my-2">Chai aur Code</h1>
         <div
           className="
-          bg-white
-           w-[650px] h-[400px]
- px-[5%]
-            
-            rounded-xl
-            flex justify-center items-center flex-col"
+          bg-white w-[650px] h-[400px] px-[5%] rounded-xl flex justify-center items-center flex-col"
         >
           <div></div>
           <p className="text-[30px] font-semibold  ">
@@ -135,7 +130,11 @@ export const Otp = () => {
       </section>
       <div className=" absolute  bottom-8 right-8">
         <Link to="https://chaicode.com/">
-          <img src={Chai} className="w-[100px] rounded-md"></img>
+          <img
+            src={Chai}
+            className="w-[100px] rounded-md"
+            alt="chai ki pyaali"
+          ></img>
         </Link>
       </div>
     </article>
