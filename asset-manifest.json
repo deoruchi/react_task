@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react_task/static/css/main.c869a637.css",
-    "main.js": "/react_task/static/js/main.fa8ea135.js",
+    "main.js": "/react_task/static/js/main.19a96cc1.js",
     "static/media/Chai.png": "/react_task/static/media/Chai.2ed10917df82133e5f8b.png",
     "index.html": "/react_task/index.html",
     "main.c869a637.css.map": "/react_task/static/css/main.c869a637.css.map",
-    "main.fa8ea135.js.map": "/react_task/static/js/main.fa8ea135.js.map"
+    "main.19a96cc1.js.map": "/react_task/static/js/main.19a96cc1.js.map"
   },
   "entrypoints": [
     "static/css/main.c869a637.css",
-    "static/js/main.fa8ea135.js"
+    "static/js/main.19a96cc1.js"
   ]
 }
