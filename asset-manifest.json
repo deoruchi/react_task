@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/react_task/static/css/main.fc2a2efb.css",
-    "main.js": "/react_task/static/js/main.d0dd4988.js",
+    "main.css": "/react_task/static/css/main.715d5f7a.css",
+    "main.js": "/react_task/static/js/main.5092df9a.js",
     "static/media/Chai.png": "/react_task/static/media/Chai.2ed10917df82133e5f8b.png",
     "index.html": "/react_task/index.html",
-    "main.fc2a2efb.css.map": "/react_task/static/css/main.fc2a2efb.css.map",
-    "main.d0dd4988.js.map": "/react_task/static/js/main.d0dd4988.js.map"
+    "main.715d5f7a.css.map": "/react_task/static/css/main.715d5f7a.css.map",
+    "main.5092df9a.js.map": "/react_task/static/js/main.5092df9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc2a2efb.css",
-    "static/js/main.d0dd4988.js"
+    "static/css/main.715d5f7a.css",
+    "static/js/main.5092df9a.js"
   ]
 }
